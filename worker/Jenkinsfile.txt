@@ -42,4 +42,3 @@ pipeline {	agent any
 
 		stage("package"){
 			steps{				echo 'Packaging worker app'				dir('worker'){					sh 'mvn package'				}			}		}	}	post{		always{			echo 'Building multibranch pipeline for worker is completed..'		}	  }}
-
