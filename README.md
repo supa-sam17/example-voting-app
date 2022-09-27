@@ -56,6 +56,7 @@ Architecture
 * A Node.js webapp which shows the results of the voting in real time
 
 
+
 Note
 ----
 
